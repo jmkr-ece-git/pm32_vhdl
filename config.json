@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "flow": "VHDLClassic"
+    },
+"DESIGN_NAME": "pm32",
+"GHDL_ARGUMENTS": ["--std=08"],
+"VHDL_FILES": ["dir::pm32.vhd", "dir::spm.vhd"],
+"CLOCK_PORT": "clk",
+"CLOCK_PERIOD": "20"
+}

@@ -1,0 +1,8 @@
+meta:
+  flow: VHDLClassic
+
+DESIGN_NAME: pm32
+VHDL_FILES: [dir::pm32.vhd, dir::spm.vhd]
+GHDL_ARGUMENTS: [--std=08]
+CLOCK_PORT: clk_i
+CLOCK_PERIOD: 20 # 20ns = 50MHz
